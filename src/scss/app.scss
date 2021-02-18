@@ -37,6 +37,12 @@ body {
 
 // CUSTOM
 
+.content {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .blue-bcg {
   background-image: linear-gradient(to top, $blue , $light-blue);
   color: $white;
@@ -94,7 +100,6 @@ body {
 }
 
 .nav {
-  height: 70px;
   width: 100%;
   border-bottom: 1px solid $white;
   position: fixed;
@@ -102,6 +107,10 @@ body {
   //position: -webkit-sticky; /* Safari */
   //position: sticky;
   //top: -1px;/
+}
+
+.zet {
+  z-index: 100;
 }
 
 .logo {
@@ -146,6 +155,11 @@ body {
 }
 
 .list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-checked {
   list-style: none;
   padding-left: 0;
 }
@@ -250,7 +264,7 @@ body {
 // PAGE 6
 
 .mytus1 {
-  background-image: linear-gradient(to bottom, #cbd0d6 , $white);
+  background-image: linear-gradient(to bottom, #cbd0d600 , $white);
   padding: 5px;
   font-style: italic;
   img {
@@ -343,7 +357,7 @@ body {
 // PAGE 10
 .buildings {
   width: 100%;
-  background-image: linear-gradient(to top, #7e8081 , #c2c8d1);
+  background-image: linear-gradient(to top, #7e7e7ea1 , #fff0);
 }
 
 .tenh3 {
@@ -371,14 +385,21 @@ body {
 }
 
 .kviz-11 {
-  margin-top: 30px;
+  margin-top: 50px;
   border-top: 1px solid #000;
 }
 
 .text-11 {
   margin-top: 0;
+  padding-top: 5px;
   border-top: 1px solid #000;
   font-style: italic;
+}
+
+.flex-11 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 // PAGE 12
@@ -393,6 +414,10 @@ body {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.media-700 {
+  display: none;
 }
 
 // PAGE 18
@@ -411,8 +436,144 @@ body {
 }
 
 .address {
+  font-size: 18px;
+  font-weight: bold;
   padding-top: 80px;
   p {
     margin: 0;
   }
+}
+
+
+@media (min-width: 400px) {
+  .hello-content {
+    padding-right: 30px;
+    padding-left: 30px;    
+  }
+}
+
+@media (min-width: 470px) {
+  .hello-content {
+    padding-right: 100px;
+    padding-left: 100px;    
+  }
+}
+
+@media (min-width: 700px) {
+  .h2 {
+    font-size: 32px;
+    letter-spacing: 0.05em;
+  }
+
+  .blue-my {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .page-padding {
+    padding: 50px 30px;
+  } 
+
+  .b40 {
+    padding-bottom: 40px;
+  }
+  
+  // PAGE 3
+  .list {
+    margin-left: 80px;
+  }
+
+  // PAGE 6
+  .mytus-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .mytus {
+    font-size: 42px;
+  }
+
+  .mytus-grey {
+    flex-shrink: 0;
+    margin-right: 40px;
+    font-size: 50px;
+  }
+
+  // PAGE 7
+  .media-flex {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .blue-table {
+    ul {
+      margin: 0;
+    }
+  }
+  
+  .flex-column {
+    ul {
+      margin-left: 50px;
+      margin-top: 0;
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 100%;
+    }
+    .minilist {
+      margin-left: 0;
+    }
+  }
+
+  .terc {
+    margin-top: 15px;
+  }
+
+  // PAGE 9
+  .blue-table-flex {
+    display: flex;
+  }
+
+  .terc-white {
+    padding: 0 40px;
+    border-top: 1px solid $white;
+    border-bottom: 1px solid $white;
+  }
+
+  // PAGE 11
+  .percent-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blue-box {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .media-700 {
+    display: block;
+  }
+}
+
+
+@media (min-width: 860px) {
+  .blue-my {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .page-padding {
+    padding: 50px 0;
+  } 
 }
