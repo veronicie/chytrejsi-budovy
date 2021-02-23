@@ -27,10 +27,15 @@
             </ul>
             <img src="../assets/sipka-2.svg" alt="yellow arrow" class="display-center arrow"> 
           </div>
-          
         </div>
-        
       </div>
+    </div>
+
+    <div class="img-sekce">
+      <img src="../assets/foto/CAM01_final.jpg" alt="budova" class="budova media-none">
+      <img src="../assets/foto/IMG_6551.jpg" alt="budova" class="budova media-none-2">
+      <img src="../assets/foto/2141012_08_LQ.jpg" alt="budova" class="budova media-none-3">
+      <img src="../assets/foto/dorn4.jpg" alt="budova" class="budova media-none-4">
     </div>
 
     <div class="pages">

@@ -455,6 +455,24 @@ body {
   }
 }
 
+//img-sekce
+.img-sekce{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.budova {
+  margin: 0;
+  padding: 0;
+  max-width: 300px;
+  flex-shrink: 0;
+}
+
+.media-none-2, .media-none-3, .media-none-4 {
+  display: none;
+}
+
 
 @media (min-width: 400px) {
   .hello-content {
@@ -476,6 +494,12 @@ body {
 
   .main-title {
     padding-top: 90px;
+  }
+}
+
+@media (min-width: 600px) {
+  .media-none-2 {
+    display: block;
   }
 }
 
@@ -606,5 +630,17 @@ body {
 
   .page-padding {
     padding: 50px 0;
-  } 
+  }
+}
+
+@media (min-width: 890px) {
+  .media-none-3 {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .media-none-4 {
+    display: block;
+  }
 }
