@@ -273,18 +273,19 @@
             <div class="percent-flex">
               <div class="blue-box text-center">4 %</div>
               <div>
-                <p class="blue-text bold tenh3">TOLIK STOJÍ AUTOMATIZACE BUDOVY. PŘESNĚJI 2-4 % Z CELKOVÉHO ROZPOČTU NA STAVBU.</p>
-                <p class="h4"><strong>Vždycky.</strong> Bez ohledu na to, jestli se projekt udělá dobře, nebo špatně. <strong>Vy si vyberte možnost „dobře“ a plaťte za kvalitu.</strong> Ušetříte. Hodně.</p>
+                <p class="bold tenh3">Tolik stojí automatizace budovy. Přesněji 2-4 % z celkového rozpočtu na stavbu.</p>
+                <p class="blueh3 blue-text display-velke font-small"><strong>Vždycky.</strong> Bez ohledu na to, jestli se projekt udělá dobře, nebo špatně. <strong>Vy si vyberte možnost „dobře“ a plaťte za kvalitu.</strong> Ušetříte. Hodně.</p>
               </div>
-              
             </div>
+            <p class="blueh3 blue-text display-male font-small"><strong>Vždycky.</strong> Bez ohledu na to, jestli se projekt udělá dobře, nebo špatně. <strong>Vy si vyberte možnost „dobře“ a plaťte za kvalitu.</strong> Ušetříte. Hodně.</p>
             <div class="percent-flex">
               <div class="blue-box text-center">80 %</div>
               <div>
-                <p class="blue-text bold tenh3">TAKOVÝ VLIV MÁ AUTOMATIZACE NA VÝSLEDNÉ PROVOZNÍ NÁKLADY.</p>
-                <p class="h4">Jinými slovy <strong>NIC JINÉHO NEPŮSOBÍ NA EKONOMIKU BUDOVY TAK VÝRAZNĚ.</strong> Automatizace zároveň určuje i komfort uživatelů a vztah k okolnímu prostředí. <strong>Takže zpátky k předchozímu bodu: Opravdu se vyplatí 2-4 procentům věnovat pozornost.</strong></p>
+                <p class="bold tenh3">Takový vliv má automatizace na výsledné provozní náklady.</p>
+                <p class="blueh3 blue-text display-velke font-small">Jinými slovy <strong>NIC JINÉHO NEPŮSOBÍ NA EKONOMIKU BUDOVY TAK VÝRAZNĚ.</strong> Automatizace zároveň určuje i komfort uživatelů a vztah k okolnímu prostředí. <strong>Takže zpátky k předchozímu bodu: Opravdu se vyplatí 2-4 procentům věnovat pozornost.</strong></p>
               </div>
             </div>
+            <p class="blueh3 blue-text display-male font-small">Jinými slovy <strong>NIC JINÉHO NEPŮSOBÍ NA EKONOMIKU BUDOVY TAK VÝRAZNĚ.</strong> Automatizace zároveň určuje i komfort uživatelů a vztah k okolnímu prostředí. <strong>Takže zpátky k předchozímu bodu: Opravdu se vyplatí 2-4 procentům věnovat pozornost.</strong></p>
           </div>
           <div class="flex-11">
             <p class="kviz-11 italic"><strong>Kvíz: Která budova má správně vyřešenou automatizaci?</strong></p>

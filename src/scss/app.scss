@@ -385,10 +385,16 @@ body {
 .blue-box {
   background-color: $blue;
   color: $white;
-  padding: 15px;
-  margin: 0 10px 10px 0;
-  font-size: 36px;
+  padding: 10px;
+  margin: 20px 10px 10px 0;
+  font-size: 24px;
   font-weight: bold;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .buildings-11 {
@@ -411,6 +417,24 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+}
+
+.percent-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.display-velke {
+  display: none;
+}
+
+.display-male {
+  display: inline;
+}
+
+.font-small {
+  font-size: 18px;
 }
 
 // PAGE 12
@@ -494,6 +518,18 @@ body {
 
   .main-title {
     padding-top: 90px;
+  }
+
+  .display-velke {
+    display: inline;
+  }
+
+  .display-male {
+    display: none;
+  }
+
+  .font-small {
+    font-size: 24px;
   }
 }
 
@@ -601,12 +637,6 @@ body {
   }
 
   // PAGE 11
-  .percent-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .blue-box {
     width: 120px;
     height: 120px;
@@ -619,6 +649,8 @@ body {
   .media-700 {
     display: block;
   }
+
+
 }
 
 
