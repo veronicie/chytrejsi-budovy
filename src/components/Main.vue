@@ -4,24 +4,37 @@
     <div class="top">
       <div class="nav blue-bcg zet">
         <div class="content flex">
-          <img src="../assets/logo-BS-white.svg" alt="buildsys logo" class="logo">
+          <a href="#heading" class="href"><img src="../assets/logo-BS-white.svg" alt="buildsys logo" class="logo"></a>
+          
           <a href="http://www.buildsys.cz" target="_blank" class="href">www.buildsys.cz</a> 
         </div>
 
       </div>
 
-      <div class="heading full-bcg-home full-height blue-bcg">
+      <div class="heading full-bcg-home full-height blue-bcg" id="heading">
         <div class="content full-height hello-content">
           <img src="../assets/titulka-texty.svg" alt="Automatizace budov" class="main-title display-center">
-          <h4 class="text-center italic">Velké úspory ukryté v malých detailech</h4>
-          <img src="../assets/sipka.svg" alt="yellow arrow" class="arrow display-center"> 
+          <h4 class="text-center italic tenh3">Velké úspory ukryté v malých detailech</h4>
+          <div class="flex">
+            <ul class="list-o">
+              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#automatizace" class="href links">Co je vlastně automatizace budov?</a></li>
+              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#mytus-1" class="href links">Mýtus #1 Máme automatizované technologie = máme chytrou budovu</a></li>
+              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#mytus-2" class="href links">Mýtus #2 Projektant tomu rozumí</a></li>
+              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#mytus-3" class="href links">Mýtus #3 Na to, aby se to udělalo líp, nejsou peníze</a></li>
+              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#mytus-4" class="href links">Mýtus #4 Případně to vylepšíme potom</a></li>
+              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#smysl" class="href links">Proč dává smysl spolupracovat s námi?</a></li>
+              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#kontakt" class="href links">Kontakt</a></li>
+            </ul>
+            <img src="../assets/sipka-2.svg" alt="yellow arrow" class="display-center arrow"> 
+          </div>
+          
         </div>
         
       </div>
     </div>
 
     <div class="pages">
-      <div class="page2 blue-bcg margin0">
+      <div class="page2 blue-bcg margin0" id="automatizace">
         <div class="content">
           <div class="page-padding">
             <h2 class="h2">Co je vlastně automatizace budov?</h2>
@@ -31,11 +44,12 @@
             </div>
           </div>
           
-          <div class="skica">
-            <img src="../assets/str2_budovy.svg" alt="budovy" class="budovy">
-            <img src="../assets/str2_silocary.svg" alt="silocary" class="silocary">
-          </div>          
+                   
         </div>
+        <div class="skica">
+            <img src="../assets/budovy.svg" alt="budovy" class="budovy">
+            <img src="../assets/silocary-2.svg" alt="silocary" class="silocary">
+          </div> 
       </div>
 
       <div class="page3 padding20 content">
@@ -87,7 +101,6 @@
           <li class="flex-numbers"><div class="li-number blue-text">4.</div><p>Kvalita řešení ovšem určuje náklady na provoz budovy. Ty se mohou lišit o stovky tisíc i miliony korun ročně.</p></li>
           <li class="flex-numbers"><div class="li-number blue-text">5.</div><p>Dobře nastavená automatizace znamená nejen úspory, ale i vysoký komfort uživatelů a šetrný přístup k životnímu prostředí.</p></li>
           <li class="flex-numbers"><div class="li-number yellow-text">!</div><p>Investoři tento obor přesto (zatím) podceňují, často mají zkreslené představy.</p></li>
-      
         </ul>
       </div>
 
@@ -95,11 +108,11 @@
         <img src="../assets/kresba-strana-5.svg" alt="four dots" class="display-center">
         <div class="margin-top-h2">
           <h2 class="blue-h2 margin-bottom-h2">4 nejčastější mýty</h2>
-          <h2 class="blue-h2">o automatizci budov</h2>
+          <h2 class="blue-h2">o automatizaci budov</h2>
         </div>
       </div>
 
-      <div class="page6 grey-bcg page-padding">
+      <div class="page6 grey-bcg page-padding" id="mytus-1">
         <div class="content">
           <div class="mytus-flex">
             <h2 class="mytus mytus-grey">Mýtus #1</h2>
@@ -173,7 +186,7 @@
         
       </div>
 
-      <div class="page8 grey-bcg page-padding">
+      <div class="page8 grey-bcg page-padding" id="mytus-2">
         <div class="content">
           <div class="mytus-flex">
             <h2 class="mytus mytus-grey">Mýtus #2</h2>
@@ -220,7 +233,7 @@
 
       </div>
 
-      <div class="page10 grey-bcg page-padding">
+      <div class="page10 grey-bcg page-padding" id="mytus-3">
         <div class="content">
           <div class="mytus-flex">
           <h2 class="mytus mytus-grey">Mýtus #3</h2>
@@ -242,7 +255,6 @@
           <p class="blueh3 tenh3">Špatně navržené řešení prodraží provoz budovy o stovky tisíc až miliony korun ročně!</p>
           <img src="../assets/obr-strana-10.svg" alt="white buldings" class="display-center buildings">          
         </div>
-
       </div>
 
       <div class="page11 page-padding content">
@@ -282,7 +294,7 @@
 
       </div>
 
-      <div class="page12 grey-bcg page-padding">
+      <div class="page12 grey-bcg page-padding" id="mytus-4">
         <div class="content">
           <div class="mytus-flex">
             <h2 class="mytus mytus-grey">Mýtus #4</h2>
@@ -342,7 +354,7 @@
 
       </div>
 
-      <div class="page15 blue-bcg padding-blue-page">
+      <div class="page15 blue-bcg padding-blue-page" id="smysl">
         <img src="../assets/kresba-strana-16.svg" alt="four dots" class="display-center">
         <div class="margin-top-h2">
           <h2 class="blue-h2 margin-bottom-h2">Proč dává smysl</h2>
@@ -353,7 +365,7 @@
       <div class="page16 blue-bcg padding-blue-page">
         <img src="../assets/kresba-strana-15.svg" alt="four dots" class="display-center">
         <div>
-          <h2 class="blue-h2 margin-bottom-h2">Protože po přečtení této brožury</h2>
+          <h2 class="blue-h2 margin-bottom-h2">Protože od této chvíle</h2>
           <h2 class="blue-h2 margin-bottom-h2">budete chtít spolupracovat</h2>
           <h2 class="blue-h2 margin-bottom-h2">už jedině s profesionály.</h2>
           <h2 class="blue-h2 yellow-text">A to my jsme.</h2>
@@ -428,7 +440,7 @@
       </div>
       <img src="../assets/Vector-2.svg" alt="obrysy budov" class="buildings-11">
 
-      <div class="page20 full-bcg-home full-height blue-bcg">
+      <div class="page20 full-bcg-home full-height blue-bcg" id="kontakt">
         <div class="end text-center">
           <h2 class="blue-h2">Zaujala vás naše řešení?</h2>
           <p class="uppercase bold">Rádi připravíme nabídku na míru i vám.</p>
@@ -436,9 +448,13 @@
             <p>BUILDSYS a.s.</p>
             <p>Cihlářská 19</p>
             <p>602 00 Brno</p>
-            <p>Tel.: +420 515 919 888</p>
-            <p>info@buildsys.cz</p>
+            <p><a href="tel:+420515919888" class="href">Tel.: +420 515 919 888</a></p>
+            <p><a href="mailto:info@buildsys.cz" class="href">info@buildsys.cz</a></p>
           </div>
+          <div class="address">
+            <a href="http://www.buildsys.cz" target="_blank" class="href">www.buildsys.cz</a>
+          </div>
+          
         </div>
       </div>
     </div>

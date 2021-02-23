@@ -16,6 +16,7 @@
 // BASIC
 html {
   box-sizing: border-box;
+  scroll-padding-top: 60px;
 }
 *,
 ::before,
@@ -36,7 +37,6 @@ body {
 
 
 // CUSTOM
-
 .content {
   max-width: 800px;
   margin-right: auto;
@@ -65,7 +65,10 @@ body {
 }
 
 .full-bcg-home {
-  background: url("../assets/titulka-podklad.svg") no-repeat center fixed;
+  background: url("../assets/titulka-podklad.svg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz--background-size: cover;
@@ -74,7 +77,7 @@ body {
 
 .main-title {
   width: 90%;
-  padding-top: 160px;
+  padding-top: 70px;
 }
 
 .text-center {
@@ -115,11 +118,6 @@ body {
 
 .logo {
   width: 50%;
-}
-
-.arrow {
-  height: 20%;
-  padding-top: 30px;
 }
 
 .h2 {
@@ -200,16 +198,35 @@ body {
   margin-bottom: 0;
 }
 
+.list-o {
+  list-style: none;
+  padding-left: 0;
+}
+
+.li-o {
+  font-family: TrashHand;
+  font-size: 28px;
+  padding-right: 5px;
+}
+
+.links {
+  font-size: 12px;
+}
+
+.arrow {
+  display: none;
+}
+
 // PAGE 2 
 .skica {
   position: relative;
 }
 
 .budovy {
-  width: 100%;
+  width: 20%;
   position: relative;
   bottom: -5px;
-  right: 0;
+  left: 60%;
 }
 
 .silocary {
@@ -374,12 +391,6 @@ body {
   font-weight: bold;
 }
 
-.flex-table {
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-between;
-}
-
 .buildings-11 {
   width: 100%;
 }
@@ -457,12 +468,25 @@ body {
     padding-right: 100px;
     padding-left: 100px;    
   }
+
+  .arrow {
+    display: block;
+    width: 12%;
+  }
+
+  .main-title {
+    padding-top: 90px;
+  }
 }
 
 @media (min-width: 700px) {
   .h2 {
     font-size: 32px;
     letter-spacing: 0.05em;
+  }
+
+  .arrow {
+    width: 8%;
   }
 
   .blue-my {
@@ -476,6 +500,13 @@ body {
 
   .b40 {
     padding-bottom: 40px;
+  }
+
+  .flex-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
   }
   
   // PAGE 3
