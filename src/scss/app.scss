@@ -107,9 +107,6 @@ body {
   border-bottom: 1px solid $white;
   position: fixed;
   top: 0;
-  //position: -webkit-sticky; /* Safari */
-  //position: sticky;
-  //top: -1px;/
 }
 
 .zet {
@@ -347,9 +344,6 @@ body {
 
 // PAGE 8 
 .flex-desktop {
-  //display: flex;
-  //align-items: baseline;
-  //justify-content: space-between;
   img {
     display: none;
   }
@@ -649,8 +643,6 @@ body {
   .media-700 {
     display: block;
   }
-
-
 }
 
 

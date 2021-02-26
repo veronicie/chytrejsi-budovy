@@ -8,7 +8,6 @@
           
           <a href="http://www.buildsys.cz" target="_blank" class="href">www.buildsys.cz</a> 
         </div>
-
       </div>
 
       <div class="heading full-bcg-home full-height blue-bcg" id="heading">
@@ -146,7 +145,6 @@
             </li>
           </ul>          
         </div>
-
       </div>
 
       <div class="page7 page-padding content">
@@ -188,7 +186,6 @@
             <img src="../assets/ikona-terc.svg" alt="ikona terč" class="terc">
           </div> 
         </div>
-        
       </div>
 
       <div class="page8 grey-bcg page-padding" id="mytus-2">
@@ -211,7 +208,6 @@
             <p><strong>Z nekvalitního projektu nemůže vzniknout kvalitní budova.</strong></p>
           </div>
         </div>
-
       </div>
 
       <div class="page9 page-padding content">
@@ -235,7 +231,6 @@
           </div>
           <p class="blueh3 blue-text">Je jednodušší budovu překreslit než přestavět.</p>          
         </div>
-
       </div>
 
       <div class="page10 grey-bcg page-padding" id="mytus-3">
@@ -273,19 +268,41 @@
             <div class="percent-flex">
               <div class="blue-box text-center">4 %</div>
               <div>
-                <p class="bold tenh3">Tolik stojí automatizace budovy. Přesněji 2-4 % z celkového rozpočtu na stavbu.</p>
-                <p class="blueh3 blue-text display-velke font-small"><strong>Vždycky.</strong> Bez ohledu na to, jestli se projekt udělá dobře, nebo špatně. <strong>Vy si vyberte možnost „dobře“ a plaťte za kvalitu.</strong> Ušetříte. Hodně.</p>
+                <!-- <p class="bold tenh3">Tolik stojí automatizace budovy. Přesněji 2-4 % z celkového rozpočtu na stavbu.</p>
+                <p class="blueh3 blue-text display-velke font-small"><strong>Vždycky.</strong> Bez ohledu na to, jestli se projekt udělá dobře, nebo špatně. <strong>Vy si vyberte možnost „dobře“ a plaťte za kvalitu.</strong> Ušetříte. Hodně.</p> -->
+                <div class="margin-bottom-h2">
+                 <p class="bold tenh3 margin-bottom-h2">Investice do automatizace budov obvykle představuje 4 % z celkového rozpočtu na stavbu. Bez ohledu na kvalitu.</p> 
+                </div>
+                <p class="blueh3 blue-text display-velke font-small">(Pod)průměr a nadstandard výjdou investičně prakticky nastejno.</p>
               </div>
             </div>
-            <p class="blueh3 blue-text display-male font-small"><strong>Vždycky.</strong> Bez ohledu na to, jestli se projekt udělá dobře, nebo špatně. <strong>Vy si vyberte možnost „dobře“ a plaťte za kvalitu.</strong> Ušetříte. Hodně.</p>
+            <!-- <p class="blueh3 blue-text display-male font-small"><strong>Vždycky.</strong> Bez ohledu na to, jestli se projekt udělá dobře, nebo špatně. <strong>Vy si vyberte možnost „dobře“ a plaťte za kvalitu.</strong> Ušetříte. Hodně.</p> -->
+            <p class="blueh3 blue-text display-male font-small">(Pod)průměr a nadstandard výjdou investičně prakticky nastejno.</p>
             <div class="percent-flex">
               <div class="blue-box text-center">80 %</div>
               <div>
-                <p class="bold tenh3">Takový vliv má automatizace na výsledné provozní náklady.</p>
-                <p class="blueh3 blue-text display-velke font-small">Jinými slovy <strong>NIC JINÉHO NEPŮSOBÍ NA EKONOMIKU BUDOVY TAK VÝRAZNĚ.</strong> Automatizace zároveň určuje i komfort uživatelů a vztah k okolnímu prostředí. <strong>Takže zpátky k předchozímu bodu: Opravdu se vyplatí 2-4 procentům věnovat pozornost.</strong></p>
+                <!-- <p class="bold tenh3">Takový vliv má automatizace na výsledné provozní náklady.</p>
+                <p class="blueh3 blue-text display-velke font-small">Jinými slovy <strong>NIC JINÉHO NEPŮSOBÍ NA EKONOMIKU BUDOVY TAK VÝRAZNĚ.</strong> Automatizace zároveň určuje i komfort uživatelů a vztah k okolnímu prostředí. <strong>Takže zpátky k předchozímu bodu: Opravdu se vyplatí 2-4 procentům věnovat pozornost.</strong></p> -->
+                <div class="margin-bottom-h2">
+                  <p class="bold tenh3">Kvalita provedení má vliv na cca 80 % spotřeby energie v budově. = Výsledné náklady se mohou propastně lišit.</p>
+                </div>
+                <div class="margin-bottom-h2">
+                  <p class="bold tenh3 display-velke"><strong>Nekvalitní realizace se prodraží po kolaudaci.</strong></p>
+                </div>
+                <div>
+                  <p class="blueh3 blue-text display-velke font-small">O to důležitější je včasná volba správného dodavatele.</p>
+                </div>
               </div>
             </div>
-            <p class="blueh3 blue-text display-male font-small">Jinými slovy <strong>NIC JINÉHO NEPŮSOBÍ NA EKONOMIKU BUDOVY TAK VÝRAZNĚ.</strong> Automatizace zároveň určuje i komfort uživatelů a vztah k okolnímu prostředí. <strong>Takže zpátky k předchozímu bodu: Opravdu se vyplatí 2-4 procentům věnovat pozornost.</strong></p>
+            <!-- <p class="blueh3 blue-text display-male font-small">Jinými slovy <strong>NIC JINÉHO NEPŮSOBÍ NA EKONOMIKU BUDOVY TAK VÝRAZNĚ.</strong> Automatizace zároveň určuje i komfort uživatelů a vztah k okolnímu prostředí. <strong>Takže zpátky k předchozímu bodu: Opravdu se vyplatí 2-4 procentům věnovat pozornost.</strong></p> -->
+            <div class="margin-bottom-h2">
+              <p class="bold tenh3 display-male"><strong>Nekvalitní realizace se prodraží po kolaudaci.</strong></p>
+            </div>
+            <div>
+              <p class="blueh3 blue-text display-male font-small">O to důležitější je včasná volba správného dodavatele.</p>
+            </div>
+            
+            
           </div>
           <div class="flex-11">
             <p class="kviz-11 italic"><strong>Kvíz: Která budova má správně vyřešenou automatizaci?</strong></p>
@@ -297,7 +314,6 @@
           <img src="../assets/obr-strana-11-3.svg" alt="two buldings" class="display-center buildings-11">
           <p class="text-11">Vypadají stejně. Náklady na stavbu byly stejné. Roční provoz budovy B vyjde o 780 000 Kč levněji.</p>          
         </div>
-
       </div>
 
       <div class="page12 grey-bcg page-padding" id="mytus-4">
@@ -357,7 +373,6 @@
           <p class="blueh3 blue-text">Jen takto se dá docílit maximálně efektivního systému, který povede k úsporám.</p>
           <p><strong>Jakékoli napravování škod znamená neúměrně vysoké náklady.</strong></p>          
         </div>
-
       </div>
 
       <div class="page15 blue-bcg padding-blue-page" id="smysl">
@@ -376,7 +391,6 @@
           <h2 class="blue-h2 margin-bottom-h2">už jedině s profesionály.</h2>
           <h2 class="blue-h2 yellow-text">A to my jsme.</h2>
         </div>
-        
       </div>
 
       <div class="page17 padding20 content">
@@ -442,7 +456,6 @@
             </li>
           </ul>          
         </div>
-
       </div>
       <img src="../assets/Vector-2.svg" alt="obrysy budov" class="buildings-11">
 
@@ -460,7 +473,6 @@
           <div class="address">
             <a href="http://www.buildsys.cz" target="_blank" class="href">www.buildsys.cz</a>
           </div>
-          
         </div>
       </div>
     </div>
@@ -472,8 +484,3 @@ export default {
   name: 'Main'
 }
 </script>
-
-
-<style lang="scss" scoped>
-
-</style>
