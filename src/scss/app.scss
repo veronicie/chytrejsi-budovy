@@ -142,10 +142,17 @@ body {
   font-weight: bold;
 }
 
-.flex {
+.flex-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 15px;
+}
+
+.flex-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 15px;
 }
 
@@ -168,6 +175,10 @@ body {
 .page-padding {
   padding: 50px 30px;
 } 
+
+a:hover {
+  color: #FFD400;
+}
 
 // HEADINGS
 .blue-h2 {
@@ -195,6 +206,27 @@ body {
   margin-bottom: 0;
 }
 
+.mytus-grey {
+  flex-shrink: 0;
+  margin-right: 40px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  img {
+    height: 30px;
+    padding-left: 10px;
+    color: #000;
+  }
+}
+
+.h3-hashtag {
+  display: flex;
+  align-items: center;
+  img {
+    height: 20px;
+  }
+}
+
 .list-o {
   list-style: none;
   padding-left: 0;
@@ -203,15 +235,23 @@ body {
 .li-o {
   font-family: TrashHand;
   font-size: 28px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 .links {
-  font-size: 12px;
+  font-family: TrashHand;
+  letter-spacing: 0.05em;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  img {
+    height: 16px;
+    padding-left: 5px;
+  };
 }
 
 .arrow {
-  display: none;
+  padding: 40px;
 }
 
 // PAGE 2 
@@ -327,7 +367,7 @@ body {
 
 .flex-end{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 } 
 
 .terc {
@@ -506,8 +546,7 @@ body {
   }
 
   .arrow {
-    display: block;
-    width: 12%;
+    padding: 60px;
   }
 
   .main-title {
@@ -539,9 +578,6 @@ body {
     letter-spacing: 0.05em;
   }
 
-  .arrow {
-    width: 8%;
-  }
 
   .blue-my {
     margin-top: 50px;
@@ -562,6 +598,12 @@ body {
     justify-content: space-between;
     padding: 15px;
   }
+
+  .h3-hashtag {
+    img {
+      height: 30px;
+    }
+  }
   
   // PAGE 3
   .list {
@@ -578,12 +620,6 @@ body {
 
   .mytus {
     font-size: 42px;
-  }
-
-  .mytus-grey {
-    flex-shrink: 0;
-    margin-right: 40px;
-    font-size: 50px;
   }
 
   // PAGE 7

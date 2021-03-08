@@ -3,10 +3,8 @@
 
     <div class="top">
       <div class="nav blue-bcg zet">
-        <div class="content flex">
-          <a href="#heading" class="href"><img src="../assets/logo-BS-white.svg" alt="buildsys logo" class="logo"></a>
-          
-          <a href="http://www.buildsys.cz" target="_blank" class="href">www.buildsys.cz</a> 
+        <div class="content flex-top">
+          <a href="#heading" class="href"><img src="../assets/logo-BS-white.svg" alt="buildsys logo" class="logo"></a> <a href="http://www.buildsys.cz" target="_blank" class="href">www.buildsys.cz</a> 
         </div>
       </div>
 
@@ -14,28 +12,28 @@
         <div class="content full-height hello-content">
           <img src="../assets/titulka-texty.svg" alt="Automatizace budov" class="main-title display-center">
           <h4 class="text-center italic tenh3">Velké úspory ukryté v malých detailech</h4>
-          <div class="flex">
+          <div class="flex-1">
             <ul class="list-o">
-              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#automatizace" class="href links">Co je vlastně automatizace budov?</a></li>
-              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#mytus-1" class="href links">Mýtus #1 Máme automatizované technologie = máme chytrou budovu</a></li>
-              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#mytus-2" class="href links">Mýtus #2 Projektant tomu rozumí</a></li>
-              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#mytus-3" class="href links">Mýtus #3 Na to, aby se to udělalo líp, nejsou peníze</a></li>
-              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#mytus-4" class="href links">Mýtus #4 Případně to vylepšíme potom</a></li>
-              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#smysl" class="href links">Proč dává smysl spolupracovat s námi?</a></li>
-              <li class="flex-numbers"><div class="li-o yellow-text">o</div><a href="#kontakt" class="href links">Kontakt</a></li>
+              <li class="percent-flex"><div class="li-o yellow-text">o</div><a href="#automatizace" class="href links">Úvod</a></li>
+              <li class="percent-flex"><div class="li-o yellow-text">o</div><a href="#mytus-1" class="href links">Mýtus<img src="../assets/hashtag-white.svg" alt="hashtag">1</a></li>
+              <li class="percent-flex"><div class="li-o yellow-text">o</div><a href="#mytus-2" class="href links">Mýtus<img src="../assets/hashtag-white.svg" alt="hashtag"> 2</a></li>
+              <li class="percent-flex"><div class="li-o yellow-text">o</div><a href="#mytus-3" class="href links">Mýtus<img src="../assets/hashtag-white.svg" alt="hashtag"> 3</a></li>
+              <li class="percent-flex"><div class="li-o yellow-text">o</div><a href="#mytus-4" class="href links">Mýtus<img src="../assets/hashtag-white.svg" alt="hashtag"> 4</a></li>
+              <li class="percent-flex"><div class="li-o yellow-text">o</div><a href="#smysl" class="href links">Proč s námi?</a></li>
+              <li class="percent-flex"><div class="li-o yellow-text">o</div><a href="#kontakt" class="href links">Kontakt</a></li>
             </ul>
-            <img src="../assets/sipka-2.svg" alt="yellow arrow" class="display-center arrow"> 
+            <img src="../assets/sipka-2.svg" alt="yellow arrow" class="arrow"> 
           </div>
         </div>
       </div>
     </div>
 
-    <div class="img-sekce">
+    <!-- <div class="img-sekce">
       <img src="../assets/foto/CAM01_final.jpg" alt="budova" class="budova media-none">
       <img src="../assets/foto/IMG_6551.jpg" alt="budova" class="budova media-none-2">
       <img src="../assets/foto/2141012_08_LQ.jpg" alt="budova" class="budova media-none-3">
       <img src="../assets/foto/dorn4.jpg" alt="budova" class="budova media-none-4">
-    </div>
+    </div> -->
 
     <div class="pages">
       <div class="page2 blue-bcg margin0" id="automatizace">
@@ -119,7 +117,11 @@
       <div class="page6 grey-bcg page-padding" id="mytus-1">
         <div class="content">
           <div class="mytus-flex">
-            <h2 class="mytus mytus-grey">Mýtus #1</h2>
+            <h2 class="mytus mytus-grey">
+              Mýtus
+              <img src="../assets/hashtag.svg" alt="hashtag">
+              1
+            </h2>
             <h2 class="mytus">Máme automatizované technologie = máme chytrou budovu.</h2>            
           </div>
           <p><strong>Velký omyl.</strong></p>
@@ -148,7 +150,10 @@
       </div>
 
       <div class="page7 page-padding content">
-        <h3 class="blue-text h3 b40">Jak to udělat správně?</h3>
+        <h3 class="blue-text mytus b40 h3-hashtag">
+          <img src="../assets/hashtag-blue.svg" alt="hashtag">
+          1 Jak to udělat správně?
+        </h3>
         <div class="list">
           <p><strong>Klíčem je maximální integrace.</strong></p>
           <div class="inline-text">
@@ -191,7 +196,11 @@
       <div class="page8 grey-bcg page-padding" id="mytus-2">
         <div class="content">
           <div class="mytus-flex">
-            <h2 class="mytus mytus-grey">Mýtus #2</h2>
+            <h2 class="mytus mytus-grey">
+              Mýtus
+              <img src="../assets/hashtag.svg" alt="hashtag">
+              2
+            </h2>
             <h2 class="mytus">Projektant tomu rozumí.</h2>            
           </div>
 
@@ -211,7 +220,10 @@
       </div>
 
       <div class="page9 page-padding content">
-        <h3 class="blue-text h3 b40">Jak to udělat správně?</h3>
+        <h3 class="blue-text mytus b40 h3-hashtag">
+          <img src="../assets/hashtag-blue.svg" alt="hashtag">
+          2 Jak to udělat správně?
+        </h3>
         <div class="list">
           <p><strong>Kvalitní projekt je u nové stavby alfou omegou.</strong></p>
           <p class="blue-text"><strong>Nepodceňte to.</strong></p>
@@ -236,7 +248,11 @@
       <div class="page10 grey-bcg page-padding" id="mytus-3">
         <div class="content">
           <div class="mytus-flex">
-          <h2 class="mytus mytus-grey">Mýtus #3</h2>
+          <h2 class="mytus mytus-grey">
+              Mýtus
+              <img src="../assets/hashtag.svg" alt="hashtag">
+              3
+            </h2>
           <h2 class="mytus">Na to, aby se to udělalo líp, nejsou peníze.</h2>            
           </div>
 
@@ -258,7 +274,10 @@
       </div>
 
       <div class="page11 page-padding content">
-        <h3 class="blue-text h3 b40">Jak to udělat správně?</h3>
+        <h3 class="blue-text mytus b40 h3-hashtag">
+          <img src="../assets/hashtag-blue.svg" alt="hashtag">
+          3 Jak to udělat správně?
+        </h3>
         <div class="list">
           <div class="inline-text">
             <span class="blue-text bold space">Zapamatujte si čísla 4 a 80.</span>
@@ -319,7 +338,11 @@
       <div class="page12 grey-bcg page-padding" id="mytus-4">
         <div class="content">
           <div class="mytus-flex">
-            <h2 class="mytus mytus-grey">Mýtus #4</h2>
+            <h2 class="mytus mytus-grey">
+              Mýtus
+              <img src="../assets/hashtag.svg" alt="hashtag">
+              4
+            </h2>
             <h2 class="mytus">Případně to vylepšíme. Potom.</h2>            
           </div>
           <p><strong>Klasická mylná představa.</strong></p>
@@ -350,7 +373,10 @@
       </div>
 
       <div class="page13 page-padding content">
-        <h3 class="blue-text h3 b40">Jak to udělat správně?</h3>
+        <h3 class="blue-text mytus b40 h3-hashtag">
+          <img src="../assets/hashtag-blue.svg" alt="hashtag">
+          4 Jak to udělat správně?
+        </h3>
         <div class="list">
           <div class="inline-text">
             <span class="blue-text bold space">Ideální je problémům předejít.</span>
